@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>U.S. National Park Weather Planner</title>
+      <link rel="stylesheet" href="index.css">
+      <link href="/fonts/knucklehead.otf">
+      <link href="/fonts/the_tribal_box/The_Tribal_Box_demo-font-FFP.ttf">
+      
+      <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+      <!-- <script src="jquery.js"></script> -->
+</head>
+<body>
+      <header>
+            <h1>U.S. National Park Weather Planner</h1>
+      </header>
+
+      <nav>
+      </nav>
+
+      <main class="main">
+            <section id="selectStatePage">
+                  <article id="introContainer">
+                        <h3 id="introText">Ever wondered what the weather will be like when you plan your trip to a national park? This app makes it easy. Choose your state from the pop-up menu and click GO, and then you'll see the parks associated with that state. Just click on your destination park, and you'll get a 5-day forecast.</h3>
+                  </article>
+
+                  <article id="formContainer">
+                        <article id="statePopup"></article>
+                  </article>
+            </section>
+            <section id="parks" class="hidden"></section>
+            <section id="forecast" class="hidden"></section>
+      </main>
+
+      <footer>
+            <div id="footerStuff">
+                  <p>&copy; 2019 - <a href="http://www.gadgetwerx.com" target="_blank">gadgetwerx.com</a></p>
+            </div>
+      </footer>
+
+      <script src="index.js"></script>
+</body>
+</html>
